@@ -1,0 +1,5 @@
+- Add real Kotoha sprites
+- Add real backgrounds
+- Add audio command support
+- Add saves / flags
+- Add map exploration
