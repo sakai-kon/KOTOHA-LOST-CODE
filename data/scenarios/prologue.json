@@ -1,0 +1,55 @@
+{
+  "id": "prologue",
+  "commands": [
+    {
+      "type": "background",
+      "src": "assets/backgrounds/placeholder.svg",
+      "alt": "仮の背景"
+    },
+    {
+      "type": "dialogue",
+      "character": "Kotoha",
+      "text": "ここから、物語が始まるよ。"
+    },
+    {
+      "type": "dialogue",
+      "character": "Kotoha",
+      "text": "画像や背景は assets/ に入れて、JSONから指定できるようになってるんだ。"
+    },
+    {
+      "type": "choice",
+      "options": [
+        {
+          "text": "ゲームの仕組みを試す",
+          "target": "demo"
+        },
+        {
+          "text": "このまま進む",
+          "target": "end"
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "id": "demo"
+    },
+    {
+      "type": "dialogue",
+      "character": "System",
+      "text": "背景、立ち絵、イベント画像、効果、選択肢などをJSONから制御できます。"
+    },
+    {
+      "type": "effect",
+      "name": "flash"
+    },
+    {
+      "type": "label",
+      "id": "end"
+    },
+    {
+      "type": "dialogue",
+      "character": "Kotoha",
+      "text": "さあ、ここから世界を作っていこう。"
+    }
+  ]
+}
